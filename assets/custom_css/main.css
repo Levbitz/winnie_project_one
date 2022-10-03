@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar css */
+.header_Wrapper .navbar {
+  padding: 0px 100px;
+}
+
+@media only screen and (max-width: 620px) {
+  .header_Wrapper .navbar {
+    padding: 0px 10px;
+  }
+}
+
+.header_Wrapper .navbar-toggler {
+  outline: none !important;
+  border: none;
+}
+
+.header_Wrapper .navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.nav-link {
+  color: #1a237e;
+  font-size: 20px;
+}
+.nav-link.active {
+  color: coral !important;
+}
+/* navbar css */
+
+/*banner section */
+.home_page_banner {
+  padding: 80px 0px;
+}
+
+.home_page_banner .banner_title {
+  font-size: 44px;
+  font-weight: 900;
+  color: coral;
+}
+
+@media only screen and (max-width: 620px) {
+  .home_page_banner .banner_title {
+    font-size: 22px;
+    font-weight: 900;
+    color: coral;
+  }
+}
+
+.home_page_banner .banner_title span {
+  color: #1a237e;
+}
+
+.highlight {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.my_inderline_style {
+  background: coral;
+  width: 80px;
+  height: 4px;
+  margin: auto;
+}
+
+.highlight_wrap {
+  margin-bottom: 10px;
+}
+.highlight_wrap:hover .my_inderline_style {
+  width: 100px;
+  margin-bottom: 10px;
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+/*banner section */
