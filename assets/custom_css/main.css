@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #f5f5f5;
   font-family: Arial, Helvetica, sans-serif;
@@ -41,6 +45,7 @@ body {
 /*banner section */
 .home_page_banner {
   padding: 80px 0px;
+  z-index: -9999px !important;
 }
 
 .home_page_banner .banner_title {
@@ -50,10 +55,29 @@ body {
 }
 
 @media only screen and (max-width: 620px) {
+  .home_page_banner {
+    padding: 40px 0px;
+  }
+
   .home_page_banner .banner_title {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 900;
     color: coral;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .banner_img_section {
+    display: none;
+  }
+
+  .navbar-nav {
+    background: red;
+    z-index: 9999px !important;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .collapse .navbar-collapse {
+    background-color: red !important;
   }
 }
 
@@ -83,4 +107,41 @@ body {
   cursor: pointer;
 }
 
+.learn-more-btn-wrap a {
+  color: #fff;
+  font-size: 24px;
+  background: coral;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+.learn-more-btn-wrap {
+  margin: auto;
+}
+
 /*banner section */
+
+/* service */
+
+.consultancy {
+  background-color: #fff6d6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.consultancy h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.dig_mrkting {
+  background-color: #ebdcf9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.dig_mrkting h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* service */
