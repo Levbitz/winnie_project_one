@@ -13,6 +13,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  color: coral;
+  text-transform: capitalize;
+}
+
 /* navbar css */
 .header_Wrapper .navbar {
   padding: 0px 100px;
@@ -49,9 +56,10 @@ body {
 }
 
 .home_page_banner .banner_title {
-  font-size: 44px;
-  font-weight: 900;
+  font-size: 48px;
+  font-weight: 500;
   color: coral;
+  text-transform: capitalize;
 }
 
 @media only screen and (max-width: 620px) {
@@ -114,6 +122,7 @@ body {
   border-radius: 5px;
   padding: 10px 20px;
   text-transform: capitalize;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 100%);
 }
 .learn-more-btn-wrap {
   margin: auto;
@@ -124,10 +133,11 @@ body {
 /* service */
 
 .consultancy {
-  background-color: #fff6d6;
+  background-color: #fff;
   padding: 10px 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+  /* box-shadow: 0 25px 98px 0 rgb(0 0 0 / 100%); */
 }
 .consultancy h2 {
   font-size: 22px;
@@ -145,3 +155,37 @@ body {
 }
 
 /* service */
+
+/*abt*/
+.about_wrap {
+  padding: 100px 20px;
+  margin-bottom: 60px;
+}
+
+.about_wrap p {
+  font-size: 20px;
+  color: lightslategray;
+}
+.winnie_box {
+  height: 400px;
+  width: 400px;
+  position: relative;
+
+  background-image: url("../images/abt.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.winnie_box h1 {
+  color: blue;
+  position: absolute;
+  right: -55%;
+  top: 30%;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+/*abt*/
